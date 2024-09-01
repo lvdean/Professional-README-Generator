@@ -11,12 +11,14 @@ inquirer
 
     },
   
+
     {
         type:"input",
-        name: "Description",
-        message:"Provide a description about your project"
+        name: "Descrition",
+        message:"Explain your project using the following questions as a guide. - What was your motivation? Why did you build this project? What problem does it solve? What did you learn?"
 
     },
+
 
     {
         type:"input",
@@ -76,10 +78,20 @@ inquirer
 
     },
 
+   
+
   ])
+
+
+
+   
+    
+//   })
   .then((answers) => {
     console.log(answers)
 
+  
+// Adding select License badge
     let badge = ''
 
     if (answers.License === 'MIT License'){
@@ -104,6 +116,8 @@ inquirer
         badge = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)';
     }
 
+   
+// readme layout
 let readMe = `
 # ${badge}
 
@@ -152,7 +166,6 @@ fs.writeFile("README.md", readMe, function(err){
 
 //     })
 //    };
- 
  
  
 });
