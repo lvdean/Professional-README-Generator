@@ -14,7 +14,7 @@ inquirer
 
     {
         type:"input",
-        name: "Descrition",
+        name: "Description",
         message:"Explain your project using the following questions as a guide. - What was your motivation? Why did you build this project? What problem does it solve? What did you learn?"
 
     },
@@ -133,7 +133,7 @@ let readMe = `
 - [Questions](#questions)
     
 ## Description
- ${answers.Description}
+${answers.Description}
 ## Installation
 ${answers.Installation} 
 ## Usage
