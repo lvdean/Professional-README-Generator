@@ -37,7 +37,7 @@ This was enjoyable task as I could see how this README generator would be benefi
 
 
 
-## Links 🔗
+## Links
 [![Github](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/lvdean/Professional-README-Generator)
 
 [Demonstration of application](https://drive.google.com/file/d/1ZNdV1z3UqPmN9FEtBXK55vxf4mm-XS8z/view?usp=sharing)
